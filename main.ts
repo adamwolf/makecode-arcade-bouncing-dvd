@@ -1,10 +1,15 @@
 /**
- * Bouncing DVD
- * 
- * August 2021
- * 
  * Adam Wolf
+ * 
+ * Bouncing DVD Logo in MakeCode Arcade
+ * 
+ * August 2021 -
  */
+// Bouncing DVD
+// 
+// August 2021
+// 
+// Adam Wolf
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     dvdlogo.setVelocity(30, 30)
 })
@@ -51,8 +56,6 @@ game.onUpdate(function () {
         dvdlogo.vy = dvdlogo.vy * -1
         randomlogo()
     }
-})
-forever(function () {
     if (bounce_x && bounce_y) {
         bounce_x = false
         bounce_y = false

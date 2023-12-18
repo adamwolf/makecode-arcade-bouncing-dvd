@@ -1,5 +1,5 @@
 {
-    "name": "Bouncing DVD",
+    "name": "Bouncing DVD Logo",
     "version": "0.0.1",
     "description": "",
     "dependencies": {
@@ -20,7 +20,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.5.46",
+        "target": "1.12.46",
         "targetId": "arcade"
     },
     "supportedTargets": [
